@@ -40,6 +40,7 @@ function mostFrequentEven(nums) {
       }
     console.log(evenNums)
     console.log(map)
+    // set currMax to infinity because I need to compare each key to each other, so through the for loop I am iterating through the keys. The current max variable will change to hold each key. 
     let currMax = Infinity
     mostF = Math.max(...map.values())
     for(let [keys, values] of map){
