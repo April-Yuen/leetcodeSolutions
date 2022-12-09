@@ -19,7 +19,7 @@
 
 // iterate through using a for loop & set a map/ object. 
 // also set a sum = 0
-// if there is a pair of letters, then add 2 to the sum. 
+// if there is a pair of letters, then add 2 to the sum. Since I have the if loop within the map, it is iterating through each letter I am setting and adding for each even number/pair. 
 // check the length of the string against the sum. If they are the same, then return the sum. Otherwise, return sum plus 1. 
 
 function longestPal(string){
